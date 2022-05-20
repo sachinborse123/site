@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://sachinborse123.github.io/data/en',
+  remoteDataBaseUrl: 'https://open-sdg.org/open-sdg-data-starter/en',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -136,7 +136,7 @@ var translations = {
         
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220520091805">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220520093116">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -166,7 +166,7 @@ layout-config-builder
   <div class="disclaimer-alert">
     <strong class="phase-tag">Alpha</strong>
     
-    This is a development website. We welcome your <a href="mailto:suggestions@example.com">feedback</a>.
+    This is a development website. We welcome your <a href="mailto:test@example.com">feedback</a>.
     
   </div>
 </div>
@@ -756,7 +756,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('email_contacts', {"questions":"questions@example.com","suggestions":"suggestions@example.com","functional":"improve@example.com"});
+        var currentValue = normalizeCurrentValue('email_contacts', {"questions":"test@example.com","suggestions":"test@example.com","functional":"test@example.com"});
         var propertyEditor = editor.getEditor('root.email_contacts');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -838,7 +838,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('frontpage_cards', [{"title":"frontpage.download_all","content":"","include":"components/download-all-data.html","button_label":"","button_link":"","rule_color":""},{"title":"We and our work for SDG","content":"We are doing various activitis for \nsustainable development with our work.\n","include":"","button_label":"Read more","button_link":"https://sites.google.com/view/esds-esg/esg-at-esds","rule_color":""},{"title":"Our main website","content":"Dubbed as “India’s preferred” Cloud service provider, \nwe are trusted by leading organizations because \nour Cloud services and advanced solutions are transforming processes \nand boosting business growth. We are innovators through and through.\n","include":"","button_label":"Read more","button_link":"https://www.esds.co.in/","rule_color":""}]);
+        var currentValue = normalizeCurrentValue('frontpage_cards', [{"title":"frontpage.download_all","content":"","include":"components/download-all-data.html","button_label":"","button_link":"","rule_color":""},{"title":"Lorem ipsum","content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis\ncursus est sed dapibus.\n","include":"","button_label":"Read more","button_link":"https://example.com","rule_color":""},{"title":"Nam vestibulum","content":"Nam vestibulum, purus quis porttitor imperdiet, nisl sem mollis nisl, a\ninterdum risus enim vitae tortor. Donec feugiat accumsan rutrum.\n","include":"","button_label":"Read more","button_link":"https://example.com","rule_color":""}]);
         var propertyEditor = editor.getEditor('root.frontpage_cards');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -852,7 +852,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('frontpage_goals_grid', {"title":"We present our data for Sustainable Development Goal indicators","description":"Click on each goal for our Sustainable Development Goal global indicator data."});
+        var currentValue = normalizeCurrentValue('frontpage_goals_grid', {"title":"Our data for Sustainable Development Goal indicators","description":"Click on each goal for our Sustainable Development Goal global indicator data."});
         var propertyEditor = editor.getEditor('root.frontpage_goals_grid');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1338,7 +1338,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('remote_data_prefix', "https://sachinborse123.github.io/data/");
+        var currentValue = normalizeCurrentValue('remote_data_prefix', "https://open-sdg.org/open-sdg-data-starter");
         var propertyEditor = editor.getEditor('root.remote_data_prefix');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1378,7 +1378,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('repository_url_data', "https://github.com/sachinborse123/data");
+        var currentValue = normalizeCurrentValue('repository_url_data', "https://github.com/open-sdg/open-sdg-data-starter");
         var propertyEditor = editor.getEditor('root.repository_url_data');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1634,12 +1634,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/site/assets/js/sdg.js?v=20220520091805'></script>
+<script src='/site/assets/js/sdg.js?v=20220520093116'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20220520091805"></script><script>
+    <script src="/site/assets/js/custom.js?v=20220520093116"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
