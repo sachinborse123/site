@@ -70,9 +70,9 @@ disclaimer:
   message: ''
   hidden: false
 email_contacts:
-  questions: test@example.com
-  suggestions: test@example.com
-  functional: test@example.com
+  questions: questions@example.com
+  suggestions: suggestions@example.com
+  functional: improve@example.com
 environment: staging
 favicons: favicon.io
 footer_language_toggle: none
@@ -92,24 +92,26 @@ frontpage_cards:
     button_label: ''
     button_link: ''
     rule_color: ''
-  - title: Lorem ipsum
+  - title: We and our work for SDG
     content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis
-      cursus est sed dapibus.
+      We are doing various activitis for 
+      sustainable development with our work.
     include: ''
     button_label: Read more
-    button_link: 'https://example.com'
+    button_link: 'https://sites.google.com/view/esds-esg/esg-at-esds'
     rule_color: ''
-  - title: Nam vestibulum
+  - title: Our main website
     content: |
-      Nam vestibulum, purus quis porttitor imperdiet, nisl sem mollis nisl, a
-      interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.
+      Dubbed as “India’s preferred” Cloud service provider, 
+      we are trusted by leading organizations because 
+      our Cloud services and advanced solutions are transforming processes 
+      and boosting business growth. We are innovators through and through.
     include: ''
     button_label: Read more
-    button_link: 'https://example.com'
+    button_link: 'https://www.esds.co.in/'
     rule_color: ''
 frontpage_goals_grid:
-  title: Our data for Sustainable Development Goal indicators
+  title: We present our data for Sustainable Development Goal indicators
   description: >-
     Click on each goal for our Sustainable Development Goal global indicator
     data.
