@@ -1,4 +1,4 @@
-﻿accessible_charts: true
+accessible_charts: true
 accessible_tabs: true
 analytics:
   ua: ''
@@ -70,9 +70,9 @@ disclaimer:
   message: ''
   hidden: false
 email_contacts:
-  questions: questions@example.com
-  suggestions: suggestions@example.com
-  functional: improve@example.com
+  questions: test@example.com
+  suggestions: test@example.com
+  functional: test@example.com
 environment: staging
 favicons: favicon.io
 footer_language_toggle: none
@@ -92,26 +92,24 @@ frontpage_cards:
     button_label: ''
     button_link: ''
     rule_color: ''
-  - title: We and our work for SDG
+  - title: Lorem ipsum
     content: |
-      We are doing various activitis for 
-      sustainable development with our work.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis
+      cursus est sed dapibus.
     include: ''
     button_label: Read more
-    button_link: 'https://sites.google.com/view/esds-esg/esg-at-esds'
+    button_link: 'https://example.com'
     rule_color: ''
-  - title: Our main website
+  - title: Nam vestibulum
     content: |
-      Dubbed as “India’s preferred” Cloud service provider, 
-      we are trusted by leading organizations because 
-      our Cloud services and advanced solutions are transforming processes 
-      and boosting business growth. We are innovators through and through.
+      Nam vestibulum, purus quis porttitor imperdiet, nisl sem mollis nisl, a
+      interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.
     include: ''
     button_label: Read more
-    button_link: 'https://www.esds.co.in/'
+    button_link: 'https://example.com'
     rule_color: ''
 frontpage_goals_grid:
-  title: We present our data for Sustainable Development Goal indicators
+  title: Our data for Sustainable Development Goal indicators
   description: >-
     Click on each goal for our Sustainable Development Goal global indicator
     data.
@@ -228,7 +226,7 @@ non_global_metadata: ''
 progress_status:
   status_heading: ''
   status_types: []
-remote_data_prefix: 'https://sachinborse123.github.io/data/'
+remote_data_prefix: 'https://open-sdg.org/open-sdg-data-starter'
 reporting_status:
   title: status.reporting_status
   description: status.description
@@ -243,7 +241,7 @@ reporting_status:
     - value: notapplicable
       label: status.not_applicable
       hide_on_goal_pages: false
-repository_url_data: 'https://github.com/sachinborse123/data'
+repository_url_data: 'https://github.com/open-sdg/open-sdg-data-starter'
 repository_url_site: ''
 search_index_boost: []
 search_index_extra_fields: []
