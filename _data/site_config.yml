@@ -79,9 +79,9 @@ footer_language_toggle: none
 footer_menu:
   - path: /contact-us
     translation_key: menu.contact_us
-  - path: 'https://twitter.com/MyTwitterAccount'
+  - path: 'https://twitter.com/ESDSDataCenter'
     translation_key: general.twitter
-  - path: 'https://facebook.com/MyFacebookAccount'
+  - path: 'https://www.facebook.com/ESDSdc/'
     translation_key: general.facebook
   - path: /about/cookies-and-privacy/
     translation_key: menu.cookies
@@ -92,24 +92,24 @@ frontpage_cards:
     button_label: ''
     button_link: ''
     rule_color: ''
-  - title: Lorem ipsum
+  - title: ESDS Sustainable Growth
     content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis
-      cursus est sed dapibus.
+      Here is the data for Sustainable Growth. The goals in this report reflects our commitment 
+      towards environment, socity in the ESG framework guided by UNO.
     include: ''
     button_label: Read more
-    button_link: 'https://example.com'
+    button_link: 'https://www.esds.co.in/investors/pdf/Annual-Report-2021.html'
     rule_color: ''
-  - title: Nam vestibulum
+  - title: ESDS towards green society
     content: |
-      Nam vestibulum, purus quis porttitor imperdiet, nisl sem mollis nisl, a
-      interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.
+      We believe service to our society where we flourish our businesses.
+      We share our profits back to nature and society with commited work.
     include: ''
     button_label: Read more
-    button_link: 'https://example.com'
+    button_link: 'https://www.esds.co.in/csr'
     rule_color: ''
 frontpage_goals_grid:
-  title: Our data for Sustainable Development Goal indicators
+  title: ESDS presents data for Sustainable Development Goal indicators
   description: >-
     Click on each goal for our Sustainable Development Goal global indicator
     data.
