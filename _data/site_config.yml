@@ -70,9 +70,9 @@ disclaimer:
   message: ''
   hidden: false
 email_contacts:
-  questions: test@example.com
-  suggestions: test@example.com
-  functional: test@example.com
+  questions: getintouch@esds.co.in
+  suggestions: getintouch@esds.co.in
+  functional: getintouch@esds.co.in
 environment: staging
 favicons: favicon.io
 footer_language_toggle: none
